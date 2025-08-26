@@ -75,6 +75,8 @@ function createGalleryMarkup(images) {
       src="${preview}"
       data-source="${original}"
       alt="${description}"
+      width="320"
+      height="200"
     />
   </a>
 </li>`;
